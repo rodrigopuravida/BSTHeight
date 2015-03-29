@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		48C61AD71AC8AA560005FFE7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C61AD61AC8AA560005FFE7 /* main.swift */; };
+		48C61ADE1AC8AA6C0005FFE7 /* BSTNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C61ADD1AC8AA6C0005FFE7 /* BSTNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		48C61AD31AC8AA560005FFE7 /* BSTHeight */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BSTHeight; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C61AD61AC8AA560005FFE7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		48C61ADD1AC8AA6C0005FFE7 /* BSTNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSTNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		48C61ACA1AC8AA560005FFE7 = {
 			isa = PBXGroup;
 			children = (
+				48C61ADD1AC8AA6C0005FFE7 /* BSTNode.swift */,
 				48C61AD51AC8AA560005FFE7 /* BSTHeight */,
 				48C61AD41AC8AA560005FFE7 /* Products */,
 			);
@@ -119,6 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48C61AD71AC8AA560005FFE7 /* main.swift in Sources */,
+				48C61ADE1AC8AA6C0005FFE7 /* BSTNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
