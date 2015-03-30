@@ -17,11 +17,13 @@ var rightRootNode : BSTNode = BSTNode(value: 1)
 var leftRootNodeChildLeft : BSTNode = BSTNode(value: 2)
 var leftRootNodeChildRight : BSTNode = BSTNode(value: 2)
 var rightRootNodeChildLeft : BSTNode = BSTNode(value: 3)
+var grandKidNode : BSTNode = BSTNode(value: 4)
 
 rootNode.left = leftRootNode
 rootNode.right = rightRootNode
 leftRootNode.left = leftRootNodeChildLeft
 leftRootNode.right = leftRootNodeChildRight
+leftRootNodeChildRight.right = grandKidNode
 rightRootNode.left = rightRootNodeChildLeft
 
 var maxHeight : Int = rootNode.maxHeight(0)
